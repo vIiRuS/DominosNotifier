@@ -37,8 +37,8 @@ while True:
 			mini("Aktueller Status: Qualitaetskontrolle", applicationName=appname, title=title)
 			print("Aktueller Status: Qualitaetskontrolle")
 	elif soup.find(class_="step5-delivery-selected"):
-		if current_step < 4:
-			current_step = 4
+		if current_step < 5:
+			current_step = 5
 			mini("Aktueller Status: Lieferung")
 			print("Aktueller Status: Lieferung")
 			break
